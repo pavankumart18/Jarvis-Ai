@@ -54,7 +54,7 @@ def chat(query):
 
 def ai(prompt):
     text=f"gemini response for prompt :{prompt} \n ***************************\n"
-    genai.configure(api_key="AIzaSyD5xpKqlMyPxPYYJCeaLKW4v3P88qZEQx0")
+    genai.configure(api_key="YOUR_API_KEY")
     generation_config = {
         "temperature": 1,
         "top_p": 0.95,
