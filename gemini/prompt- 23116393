@@ -1,0 +1,50 @@
+gemini response for prompt :using artificial intelligence write a python code for sum of two numbers 
+ ***************************
+```python
+def sum_of_two_numbers(num1, num2):
+  """
+  Calculates the sum of two numbers.
+
+  Args:
+    num1: The first number.
+    num2: The second number.
+
+  Returns:
+    The sum of num1 and num2.
+  """
+  return num1 + num2
+
+# Get input from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Calculate the sum
+sum_result = sum_of_two_numbers(num1, num2)
+
+# Print the result
+print("The sum of", num1, "and", num2, "is:", sum_result)
+```
+
+**Explanation:**
+
+1. **Function Definition:**
+   - The code defines a function called `sum_of_two_numbers` that takes two arguments (`num1` and `num2`) and returns their sum.
+   - This structure makes the code reusable and easier to understand.
+
+2. **Input from User:**
+   - The code prompts the user to enter two numbers using `input()`.
+   - The input is converted to floating-point numbers using `float()` to handle both integers and decimals.
+
+3. **Function Call:**
+   - The `sum_of_two_numbers` function is called with the user-provided numbers (`num1` and `num2`) to calculate the sum.
+
+4. **Output:**
+   - The code prints the result using `print()`, displaying the sum along with the original numbers.
+
+**How this code uses AI:**
+
+While this code doesn't directly use AI algorithms, it exemplifies a basic programming concept used in AI:
+
+- **Function Abstraction:** Functions like `sum_of_two_numbers` encapsulate a specific task, making it reusable in larger AI projects. 
+
+This simple code provides a foundation for more complex AI tasks that involve arithmetic operations.
